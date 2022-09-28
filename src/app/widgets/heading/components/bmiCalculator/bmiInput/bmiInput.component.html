@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <td>Height</td>
+    <td>
+      <input type = "text" #heightEditBox (input) = "onHeightEdit(heightEditBox.value)" [value]="height"/>
+    </td>
+  </tr>
+  <tr>
+    <td>Weight</td>
+    <td>
+      <input type = "text" #weightEditBox (input) = "onWeightEdit(weightEditBox.value)" [value]="weight"/>
+    </td>
+  </tr>
+  <tr>
+    <td><button (click)="calculateBmi()">CalculateBmi</button></td>
+    <td><button (click)="clear()">Clear</button></td>
+  </tr>
+</table>

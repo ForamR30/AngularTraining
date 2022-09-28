@@ -1,0 +1,3 @@
+<heading-component [message]="'BMI Calculator'"></heading-component>
+<app-bmi-input (inputAvailableEvent)="calculateBmi($event)" (clearEvent)="clear()"></app-bmi-input>
+<app-bmi-result [bmi]="bmiResult"></app-bmi-result>

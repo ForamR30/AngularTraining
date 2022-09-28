@@ -1,0 +1,35 @@
+<!-- Content of this file will be compiled-->
+<!-- <heading-component [message]="'Philips healthcare portal'"></heading-component>
+<bmi-calc-comp></bmi-calc-comp> program 1 -->
+
+
+
+<!-- <input #textbox type="text" (input)="onTextBoxEdited(textbox.value)" [value]="prop"/> -->
+<!-- <input type = "text" [(ngModel)]="prop"/>
+<br/>
+<output>{{prop}}</output>
+<button (click)="changePropValue()">ChangePropValue</button> program 2-->
+
+<!-- <form #formGrupRef="ngForm" (ngSubmit)="onFormSubmit(formGrupRef.form)">
+<input type ="text" name="userNameTextBox" [(ngModel)]="prop" #formControlRef=ngModel required pattern=".{3,5}"/>
+<div *ngIf="formControlRef.errors">
+  <output *ngIf="formControlRef.errors['required']">Control value required</output>
+  <output *ngIf="formControlRef.errors['pattern']">Invalid value entered</output>
+</div>
+<br/>
+<output>{{"Dirty:" + formControlRef.dirty}}</output><br/>
+<output>{{"touched:" + formControlRef.dirty}}</output><br/>
+<output>{{"pristine:" + formControlRef.pristine}}</output><br/>
+<output>{{"Dirty:" + formControlRef.value}}</output><br/> -->
+<!-- <button (click)="changePropValue()">ChangePropValue</button> -->
+<!-- <input type="submit" value="Login"/>
+</form> -->
+
+<!-- <mat-slider min="1" max="100" step="1" value="50"></mat-slider> -->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span [textColor]="'yellow'">Philips Health Portal</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<!-- <app-login-form-component></app-login-form-component> -->
